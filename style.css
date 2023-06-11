@@ -1,0 +1,67 @@
+
+/* 
+<--- colorsheme reminder --->
+
+<- CSS HEX ->
+--black: #080705ff; #171717;
+--aquamarine: #a5ffd6ff;
+--tyrian-purple: #700548ff;
+--pale-purple: #e5d9f2ff;
+--vista-blue: #7899d4ff;
+
+<- CSS HSL ->
+--black: hsla(40, 23%, 3%, 1);
+--aquamarine: hsla(153, 100%, 82%, 1);
+--tyrian-purple: hsla(322, 91%, 23%, 1);
+--pale-purple: hsla(269, 49%, 90%, 1);
+--vista-blue: hsla(218, 52%, 65%, 1);
+
+<- SCSS Gradient ->
+$gradient-top: linear-gradient(0deg, #080705ff, #a5ffd6ff, #700548ff, #e5d9f2ff, #7899d4ff);
+$gradient-right: linear-gradient(90deg, #080705ff, #a5ffd6ff, #700548ff, #e5d9f2ff, #7899d4ff);
+$gradient-bottom: linear-gradient(180deg, #080705ff, #a5ffd6ff, #700548ff, #e5d9f2ff, #7899d4ff);
+$gradient-left: linear-gradient(270deg, #080705ff, #a5ffd6ff, #700548ff, #e5d9f2ff, #7899d4ff);
+$gradient-top-right: linear-gradient(45deg, #080705ff, #a5ffd6ff, #700548ff, #e5d9f2ff, #7899d4ff);
+$gradient-bottom-right: linear-gradient(135deg, #080705ff, #a5ffd6ff, #700548ff, #e5d9f2ff, #7899d4ff);
+$gradient-top-left: linear-gradient(225deg, #080705ff, #a5ffd6ff, #700548ff, #e5d9f2ff, #7899d4ff);
+$gradient-bottom-left: linear-gradient(315deg, #080705ff, #a5ffd6ff, #700548ff, #e5d9f2ff, #7899d4ff);
+$gradient-radial: radial-gradient(#080705ff, #a5ffd6ff, #700548ff, #e5d9f2ff, #7899d4ff);
+
+*/
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 12px;
+    background-color: #171717;
+}
+
+.logo {
+    margin-left: 32px;
+}
+
+.herobox {
+    flex: 1;
+}
+
+ul {
+    margin-right: 32px;
+    display: flex;
+    gap: 32px;
+    color: #a5ffd6ff;
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+    color: #a5ffd6ff;
+}
