@@ -34,6 +34,8 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Helvetica Neue", sans-serif;
+    min-height: 100vh;
+    margin: 0;
 }
 
 header {
@@ -71,6 +73,10 @@ header {
     align-items: center;
     justify-content: center;
     flex: 1;
+}
+
+h1 {
+    font-size: 48px;
 }
 
 ul {
