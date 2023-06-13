@@ -37,6 +37,7 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
+    color: #171717;
 }
 
 .main {
@@ -61,8 +62,9 @@ header {
     justify-content: center;
     flex: 1;
     padding: 12px 80px;
-    background-color: hsla(322, 91%, 23%, 1);
-    color: #171717;
+    background-color: #171717;
+    color: #d9d9d9;
+    min-height: 350px;
 }
 
 .heroleft {
@@ -70,29 +72,37 @@ header {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    flex: 1;
 }
 
 .heroright {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex: 1;
     background-color: #e5d9f2ff;
 }
 
 .herobutton {
     color: #171717;
-    background-color: #7899d4ff;
-    padding: 6px 12px;
-    border-radius: 10px;
+    background-color: #f6c145;
+    padding: 6px 18px;
+    border-radius: 12px;
+    border: none;
+    transition-duration: .4s;
+}
+
+.herobutton:hover {
+    background-color: #171717;
+    color: #f6c145;
 }
 
 .infobox {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     flex: 1;
+    background-color: #f6c145;
+    min-height: 350px;
 }
 
 .container {
@@ -106,14 +116,55 @@ header {
     flex: 1;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
     width: 120px;
+    text-align: center;
 }
 
 .image {
     width: 120px;
     height: 120px;
-    border: 2px solid #7899d4ff;
+    border: 3px solid #171717;
+    border-radius: 10px;
+}
+
+.quotebox {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #7899d4ff;
+    min-height: 350px;
+}
+
+.quote {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    margin-bottom: 0;
+    color: #171717;
+    font-style: italic;
+}
+
+.author {
+    font-weight: bold;
+    margin-top: 0;
+    width: 600px;
+    text-align: end;
+}
+
+.signupbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5d0f2ff;
+    min-height: 350px;
+}
+
+.banner {
+    width: 800px;
+    height: 100px;
+    background-color: #a5ffd6ff;
     border-radius: 10px;
 }
 
@@ -127,13 +178,13 @@ ul {
     margin-right: 32px;
     display: flex;
     gap: 32px;
-    color: #a5ffd6ff;
+    color: #f6c145;
     list-style: none
 }
 
 a {
     text-decoration: none;
-    color: #a5ffd6ff;
+    color: #f6c145;
 }
 
 footer {
@@ -142,5 +193,5 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: #171717;
-    color: #a5ffd6ff;
+    color: #f6c145;
 }
