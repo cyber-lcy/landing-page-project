@@ -133,7 +133,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #7899d4ff;
+    background-color: #171717;
     min-height: 350px;
 }
 
@@ -142,7 +142,7 @@ header {
     flex-wrap: wrap;
     width: 600px;
     margin-bottom: 0;
-    color: #171717;
+    color: #d9d9d9;
     font-style: italic;
 }
 
@@ -151,20 +151,21 @@ header {
     margin-top: 0;
     width: 600px;
     text-align: end;
+    color: #d9d9d9;
 }
 
 .signupbox {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #e5d0f2ff;
+    background-color: #f6c145;
     min-height: 350px;
 }
 
 .banner {
     width: 800px;
     height: 100px;
-    background-color: #a5ffd6ff;
+    background-color: #171717;
     border-radius: 10px;
 }
 
